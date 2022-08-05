@@ -17,7 +17,7 @@
         } else {
             echo "Registration failed becauase of error" . mysqli_error($connection);
         }
-        header("location: index.php");
+        header("location: admin.php");
         mysqli_close($connection);
     }
  }

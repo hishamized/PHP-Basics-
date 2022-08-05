@@ -6,7 +6,7 @@ $id = $_GET['id'];
  $result = mysqli_query($connection, $sql);
  if($result){
     echo "Record Deleted Successfully!";
-    header("location: index.php");
+    header("location: admin.php");
  } else {
     echo "Deletion operation failed because : " . mysqli_error($connection);
  }
