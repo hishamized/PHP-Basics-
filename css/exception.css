@@ -1,0 +1,32 @@
+*{margin: 0%;}
+.exception{
+    background-color: hsl(153, 31%, 86%);
+    color: green;
+    padding: 1em;
+}
+.forms-container {
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+}
+.form-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E9EBEE;
+}
+.input {
+    height: 35px;
+}
+.button {
+    width: 30%;
+    padding: 8px;
+    background-color: hsl(134, 48%, 56%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.button:hover{
+    transition: 0.5s;
+    box-shadow: 2px 2px 8px 2px black;
+}
